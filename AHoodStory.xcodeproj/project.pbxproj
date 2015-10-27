@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F093BB51BDEDEA7001CF486 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F093BB41BDEDEA7001CF486 /* PostCell.swift */; };
+		8FAC42121BDEEA9F00E62FE0 /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAC42111BDEEA9F00E62FE0 /* AddPostVC.swift */; };
+		8FAC42151BDFB3FC00E62FE0 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAC42141BDFB3FC00E62FE0 /* DataService.swift */; };
 		8FDC361B1BDEC75A002DFDC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC361A1BDEC75A002DFDC4 /* AppDelegate.swift */; };
 		8FDC361D1BDEC75A002DFDC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC361C1BDEC75A002DFDC4 /* ViewController.swift */; };
 		8FDC36201BDEC75A002DFDC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FDC361E1BDEC75A002DFDC4 /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		8FDC36251BDEC75A002DFDC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FDC36231BDEC75A002DFDC4 /* LaunchScreen.storyboard */; };
 		8FDC36301BDEC75B002DFDC4 /* AHoodStoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC362F1BDEC75B002DFDC4 /* AHoodStoryTests.swift */; };
 		8FDC363B1BDEC75B002DFDC4 /* AHoodStoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC363A1BDEC75B002DFDC4 /* AHoodStoryUITests.swift */; };
+		8FDC364A1BDEC816002DFDC4 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC36491BDEC816002DFDC4 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F093BB41BDEDEA7001CF486 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		8FAC42111BDEEA9F00E62FE0 /* AddPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
+		8FAC42141BDFB3FC00E62FE0 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		8FDC36171BDEC75A002DFDC4 /* AHoodStory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHoodStory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FDC361A1BDEC75A002DFDC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FDC361C1BDEC75A002DFDC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 		8FDC36361BDEC75B002DFDC4 /* AHoodStoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHoodStoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FDC363A1BDEC75B002DFDC4 /* AHoodStoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHoodStoryUITests.swift; sourceTree = "<group>"; };
 		8FDC363C1BDEC75B002DFDC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FDC36491BDEC816002DFDC4 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F093BB31BDEDE89001CF486 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F093BB41BDEDEA7001CF486 /* PostCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8FAC42101BDEEA7D00E62FE0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8FDC361C1BDEC75A002DFDC4 /* ViewController.swift */,
+				8FAC42111BDEEA9F00E62FE0 /* AddPostVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8FAC42131BDFB3DE00E62FE0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8FAC42141BDFB3FC00E62FE0 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		8FDC360E1BDEC75A002DFDC4 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +130,11 @@
 		8FDC36191BDEC75A002DFDC4 /* AHoodStory */ = {
 			isa = PBXGroup;
 			children = (
+				8FAC42131BDFB3DE00E62FE0 /* Services */,
+				8FAC42101BDEEA7D00E62FE0 /* Controllers */,
+				8F093BB31BDEDE89001CF486 /* Views */,
+				8FDC36481BDEC7EC002DFDC4 /* Models */,
 				8FDC361A1BDEC75A002DFDC4 /* AppDelegate.swift */,
-				8FDC361C1BDEC75A002DFDC4 /* ViewController.swift */,
 				8FDC361E1BDEC75A002DFDC4 /* Main.storyboard */,
 				8FDC36211BDEC75A002DFDC4 /* Assets.xcassets */,
 				8FDC36231BDEC75A002DFDC4 /* LaunchScreen.storyboard */,
@@ -123,6 +159,14 @@
 				8FDC363C1BDEC75B002DFDC4 /* Info.plist */,
 			);
 			path = AHoodStoryUITests;
+			sourceTree = "<group>";
+		};
+		8FDC36481BDEC7EC002DFDC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8FDC36491BDEC816002DFDC4 /* Post.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +300,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FDC364A1BDEC816002DFDC4 /* Post.swift in Sources */,
 				8FDC361D1BDEC75A002DFDC4 /* ViewController.swift in Sources */,
+				8FAC42121BDEEA9F00E62FE0 /* AddPostVC.swift in Sources */,
+				8FAC42151BDFB3FC00E62FE0 /* DataService.swift in Sources */,
 				8FDC361B1BDEC75A002DFDC4 /* AppDelegate.swift in Sources */,
+				8F093BB51BDEDEA7001CF486 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AHoodStory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.neva.AHoodStory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AHoodStory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.neva.AHoodStory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +534,7 @@
 				8FDC36411BDEC75B002DFDC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FDC36421BDEC75B002DFDC4 /* Build configuration list for PBXNativeTarget "AHoodStoryTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +543,7 @@
 				8FDC36441BDEC75B002DFDC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FDC36451BDEC75B002DFDC4 /* Build configuration list for PBXNativeTarget "AHoodStoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +552,7 @@
 				8FDC36471BDEC75B002DFDC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
