@@ -16,7 +16,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        DataService.instance.loadPosts()
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "onPostsLoaded:", name: "POSTLOADED", object: nil)
         
     }

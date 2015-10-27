@@ -29,7 +29,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="560" height="87"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="barrel-water-bridge" translatesAutoresizingMaskIntoConstraints="NO" id="m8m-ix-aWG">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="m8m-ix-aWG">
                                                     <rect key="frame" x="8" y="8" width="70" height="70"/>
                                                     <animations/>
                                                     <constraints>
@@ -272,7 +272,6 @@
     </scenes>
     <resources>
         <image name="bannerlogo" width="518" height="194"/>
-        <image name="barrel-water-bridge" width="550" height="440"/>
         <image name="camera" width="100" height="77"/>
     </resources>
 </document>
